@@ -2,3 +2,22 @@
     margin:  0;
     padding:  0;
 }
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+
+.ColorNav{
+    background-color: rgb(186, 31, 203);
+}
+
+form{
+    padding: 20px;
+}
+
+.carousel-inner{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 20px;
+}

@@ -1,15 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
     <title>jojo's Stardust Crusders</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    <h1>Jojo's Stardust Crusders</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg ColorNav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">Jojo's Stardust Crusders</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/personajes.html" id="navbarDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Personajes
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="./personajes.html">Jotaro</a></li>
+                            <li><a class="dropdown-item" href="./personajes.html">Polnareff </a></li>
+                            <li><a class="dropdown-item" href="./personajes.html">Joseph Joestar</a></li>
+                            <li><a class="dropdown-item" href="./personajes.html">Kakyoin</a></li>
+                            <li><a class="dropdown-item" href="./personajes.html">Muhammad Avdol</a></li>
+                            <li><a class="dropdown-item" href="./personajes.html">Iggy</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./historia.html">Historia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/autor.html">Autor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="https://static.wixstatic.com/media/a27d24_6038e1c3108e4cd091cdba331287bc56~mv2.jpg/v1/fill/w_1000,h_563,al_c,q_90/a27d24_6038e1c3108e4cd091cdba331287bc56~mv2.jpg" class="d-block w-100" alt="Protagonistas de la serie">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://i0.wp.com/elpalomitron.com/wp-content/uploads/2018/10/el-viaje-en-JoJos-Bizarre-Adventure-Stardust-Crusaders-grupo-el-palomitron.jpg?resize=700%2C389&ssl=1" class="d-block w-100" alt="Personajes contentos">
+            </div>
+            <div class="carousel-item">
+                <img src="https://los40es00.epimg.net/los40/imagenes/2018/09/22/comics/1537604507_540883_1537604551_noticia_normal.jpg" class="d-block w-100" alt="Jojo's Posando">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
