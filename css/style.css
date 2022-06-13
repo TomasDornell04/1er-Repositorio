@@ -21,3 +21,11 @@ form{
     margin: 0 auto;
     margin-top: 20px;
 }
+
+.texto{
+    margin: 150px;
+}
+
+.animacion:hover{
+    transform: scale(1.2);
+}
